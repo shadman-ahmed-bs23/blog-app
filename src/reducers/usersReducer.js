@@ -1,5 +1,3 @@
-import { act } from "react-dom/test-utils";
-
 export default (state = [], action) => {
   switch(action.type) {
     case 'FETCH_USER': 
@@ -7,4 +5,4 @@ export default (state = [], action) => {
     default: 
       return state; 
   }
-}; 
+};
